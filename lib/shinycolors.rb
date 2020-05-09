@@ -5,7 +5,7 @@ module ShinyColors
   class Idol
     class << self
       def all
-        YAML.load_file('./lib/data/idol.yml').values.inject { |all, unit| all.merge(unit) }
+        YAML.load_file('./data/idol.yml').values.inject { |all, unit| all.merge(unit) }
       end
 
       def names
