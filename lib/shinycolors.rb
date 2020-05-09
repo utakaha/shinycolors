@@ -3,6 +3,8 @@ require 'yaml'
 
 module ShinyColors
   class Idol
+    class NotFoundError < StandardError; end
+
     class << self
       def all
         YAML.load_file('./data/idol.yml').values.inject { |all, unit| all.merge(unit) }
@@ -14,6 +16,7 @@ module ShinyColors
 
       def find(name)
         idol = all[name.to_s]
+        raise(IdolNotFoundError) if idol.nil?
       end
 
       Idol.names.each do |name|
