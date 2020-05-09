@@ -2,7 +2,7 @@ require_relative 'lib/shinycolors/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "shinycolors"
-  spec.version       = Shinycolors::VERSION
+  spec.version       = ShinyColors::VERSION
   spec.authors       = ["iavivai"]
   spec.email         = ["18yukitaka@gmail.com"]
   spec.summary       = 'Rubyでシャニマスを扱えるようにするgem'
