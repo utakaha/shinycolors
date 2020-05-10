@@ -31,7 +31,7 @@ module ShinyColors
       def find(name)
         h = all[name]
         raise(IdolNotFoundError) if h.nil?
-        Idol.new(**h)
+        new(**h)
       end
 
       def display(name)
