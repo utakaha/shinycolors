@@ -5,7 +5,7 @@ module ShinyColors
   class << self
     Idol.names.each do |name|
       define_method(name) do
-        Idol.find(name)
+        Idol.display(name)
       end
     end
   end
