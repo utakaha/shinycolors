@@ -1,25 +1,26 @@
 illumination_stars:
-  hiori_kazano: &hiori_kazano
-    name: 風野 灯織
-    cv: 近藤 玲奈
-    age: 15
-    birthplace: 東京都
-    birthday: 3/4
-  mano_sakuragi: &mano_sakuragi
-    name: 櫻木 真乃
-    cv: 関根 瞳
-    age: 16
-    birthplace: 東京都
-    birthday: 4/25
-  meguru_hachimiya: &meguru_hachimiya
-    name: 八宮 めぐる
-    cv: 峯田 茉優
-    age: 16
-    birthplace: アメリカ
-    birthday: 7/22
-  mano:
-    <<: *mano_sakuragi
-  hiori:
-    <<: *hiori_kazano
-  meguru:
-    <<: *meguru_hachimiya
+  idols:
+    hiori_kazano: &hiori
+      name: 風野 灯織
+      cv: 近藤 玲奈
+      age: 15
+      birthplace: 東京都
+      birthday: 3/4
+    mano_sakuragi: &mano
+      name: 櫻木 真乃
+      cv: 関根 瞳
+      age: 16
+      birthplace: 東京都
+      birthday: 4/25
+    meguru_hachimiya: &meguru
+      name: 八宮 めぐる
+      cv: 峯田 茉優
+      age: 16
+      birthplace: アメリカ
+      birthday: 7/22
+    mano:
+      <<: *mano
+    hiori:
+      <<: *hiori
+    meguru:
+      <<: *meguru

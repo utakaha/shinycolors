@@ -7,7 +7,9 @@ module ShinyColors
 
     class << self
       def all
-        YAML.load_file('./data/idol.yml').values.inject { |all, unit| all.merge(unit) }
+        YAML.load_file('./data/idol.yml').each_with_object({}) do |(_, values), all|
+          all.merge!(values['idols'])
+        end
       end
 
       def names
@@ -16,7 +18,7 @@ module ShinyColors
 
       def find(name)
         idol = all[name.to_s]
-        raise(IdolNotFoundError) if idol.nil?
+        idol.nil? ? raise(IdolNotFoundError) : idol
       end
 
       Idol.names.each do |name|
