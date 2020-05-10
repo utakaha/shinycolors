@@ -1,4 +1,7 @@
 illumination_stars:
+  name: illumination STARS
+  name_jp: イルミネーションスターズ
+  color: パステルイエロー
   idols:
     hiori_kazano: &hiori
       name: 風野 灯織
@@ -26,6 +29,9 @@ illumination_stars:
       <<: *meguru
 
 lantica:
+  name: L'Antica
+  name_jp: アンティーカ
+  color: ヴァイオレット
   idols:
     mamimi_tanaka: &mamimi
       name: 田中 摩美々
@@ -69,6 +75,9 @@ lantica:
       <<: *sakuya
 
 hokagoclimaxgirls:
+  name: 放課後クライマックスガールズ
+  name_jp: 放課後クライマックスガールズ
+  color: オレンジ
   idols:
     rinze_morino: &rinze
       name: 杜野 凛世
@@ -112,6 +121,9 @@ hokagoclimaxgirls:
       <<: *natsuha
 
 alstroemeria:
+  name: ALSTROEMERIA
+  name_jp: アルストロメリア
+  color: パステルピンク
   idols:
     amana_osaki: &amana
       name: 大崎 甘奈
@@ -139,6 +151,9 @@ alstroemeria:
       <<: *tenka
 
 straylight:
+  name: Straylight
+  name_jp: ストレイライト
+  color: ワインレッド
   idols:
     fuyuko_mayuzumi: &fuyuko
       name: 黛 冬優子
@@ -166,6 +181,9 @@ straylight:
       <<: *mei
 
 noctchill:
+  name: noctchill
+  name_jp: ノクチル
+  color: ウルトラマリン
   idols:
     hinana_ichikawa: &hinana
       name: 市川 雛菜
