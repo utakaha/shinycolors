@@ -110,3 +110,30 @@ hokagoclimaxgirls:
       <<: *juri
     natsuha:
       <<: *natsuha
+
+alstroemeria:
+  idols:
+    amana_osaki: &amana
+      name: 大崎 甘奈
+      cv: 黒木 ほの香
+      age: 17
+      birthplace: 富山県
+      birthday: 12/25
+    chiyuki_kuwayama: &chiyuki
+      name: 桑山 千雪
+      cv: 芝崎 典子
+      age: 23
+      birthplace: 山口県
+      birthday: 4/18
+    tenka_osaki: &tenka
+      name: 大崎 甜花
+      cv: 前川 涼子
+      age: 17
+      birthplace: 富山県
+      birthday: 12/25
+    amana:
+      <<: *amana
+    chiyuki:
+      <<: *chiyuki
+    tenka:
+      <<: *tenka
