@@ -137,3 +137,30 @@ alstroemeria:
       <<: *chiyuki
     tenka:
       <<: *tenka
+
+straylight:
+  idols:
+    fuyuko_mayuzumi: &fuyuko
+      name: 黛 冬優子
+      cv: 幸村 恵理
+      age: 19
+      birthplace: 茨城県
+      birthday: 12/4
+    asahi_serizawa: &asahi
+      name: 芹沢 あさひ
+      cv: 田中 有紀
+      age: 14
+      birthplace: 東京都
+      birthday: 1/4
+    mei_izumi: &mei
+      name: 和泉 愛依
+      cv: 北原 沙弥香
+      age: 18
+      birthplace: 埼玉県
+      birthday: 8/2
+    fuyuko:
+      <<: *fuyuko
+    asahi:
+      <<: *asahi
+    mei:
+      <<: *mei
