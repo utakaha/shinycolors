@@ -67,3 +67,46 @@ lantica:
       <<: *mitsumine
     sakuya:
       <<: *sakuya
+
+hokagoclimaxgirls:
+  idols:
+    rinze_morino: &rinze
+      name: 杜野 凛世
+      cv: 丸岡 和佳奈
+      age: 16
+      birthplace: 鳥取県
+      birthday: 10/19
+    chiyoko_sonoda: &choko
+      name: 園田 智代子
+      cv: 白石 晴香
+      age: 17
+      birthplace: 千葉県
+      birthday: 2/24
+    kaho_komiya: &kaho
+      name: 小宮 果穂
+      cv: 河野 ひより
+      age: 12
+      birthplace: 東京都
+      birthday: 7/29
+    juri_saijo: &juri
+      name: 西城 樹里
+      cv: 永井 真里子
+      age: 17
+      birthplace: 神奈川県
+      birthday: 11/26
+    natsuha_arisugawa: &natsuha
+      name: 有栖川 夏葉
+      cv: 涼本 あきほ
+      age: 20
+      birthplace: 愛知県
+      birthday: 8/16
+    rinze:
+      <<: *rinze
+    choko:
+      <<: *choko
+    kaho:
+      <<: *kaho
+    juri:
+      <<: *juri
+    natsuha:
+      <<: *natsuha
