@@ -6,8 +6,8 @@ module ShinyColors
 
     class << self
       def all
-        YAML.load_file('./data/idol.yml').each_with_object({}) do |(_, values), all|
-          all.merge!(values['idols'])
+        YAML.load_file('./data/idol.yml').each_with_object({}) do |(_, values), result|
+          result.merge!(values['idols'])
         end
       end
 
