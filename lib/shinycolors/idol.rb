@@ -17,7 +17,9 @@ module ShinyColors
 
     class << self
       def all
-        YAML.load_file('./data/idol.yml').each_with_object({}) do |(_, values), result|
+        return @all unless @all.nil?
+
+        @all = YAML.load_file('./data/idol.yml').each_with_object({}) do |(_, values), result|
           result.merge!(values['idols'])
         end.deep_symbolize_keys!
       end
