@@ -10,6 +10,12 @@ module ShinyColors
       end
     end
 
+    Idol.nicknames.each do |nickname, fullname|
+      define_method(nickname) do
+        Idol.find(fullname)
+      end
+    end
+
     Unit.names.each do |name|
       define_method(name) do
         Unit.find(name)

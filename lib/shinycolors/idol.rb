@@ -5,15 +5,16 @@ module ShinyColors
   class Idol
     class NotFoundError < StandardError; end
 
-    def initialize(name:, cv:, age:, birthplace:, birthday:)
+    def initialize(name:, cv:, age:, birthplace:, birthday:, nickname:)
       @name = name
       @cv = cv
       @age = age
       @birthplace = birthplace
       @birthday = birthday
+      @nickname = nickname
     end
 
-    attr_reader :name, :cv, :age, :birthplace, :birthday
+    attr_reader :name, :cv, :age, :birthplace, :birthday, :nickname
 
     class << self
       def all
@@ -26,6 +27,12 @@ module ShinyColors
 
       def names
         all.keys
+      end
+
+      def nicknames
+        all.each_with_object({}) do |(fullname, values), result|
+          values[:nickname]&.each { |nickname| result.merge!({ nickname => fullname }) }
+        end
       end
 
       def find(name)

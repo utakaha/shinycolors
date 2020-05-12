@@ -3,217 +3,223 @@ illumination_stars:
   name_jp: イルミネーションスターズ
   color: パステルイエロー
   idols:
-    hiori_kazano: &hiori
+    hiori_kazano:
       name: 風野 灯織
       cv: 近藤 玲奈
       age: 15
       birthplace: 東京都
       birthday: 3/4
-    mano_sakuragi: &mano
+      nickname:
+        - hiori
+    mano_sakuragi:
       name: 櫻木 真乃
       cv: 関根 瞳
       age: 16
       birthplace: 東京都
       birthday: 4/25
-    meguru_hachimiya: &meguru
+      nickname:
+        - mano
+    meguru_hachimiya:
       name: 八宮 めぐる
       cv: 峯田 茉優
       age: 16
       birthplace: アメリカ
       birthday: 7/22
-    mano:
-      <<: *mano
-    hiori:
-      <<: *hiori
-    meguru:
-      <<: *meguru
+      nickname:
+        - meguru
 
 lantica:
   name: L'Antica
   name_jp: アンティーカ
   color: ヴァイオレット
   idols:
-    mamimi_tanaka: &mamimi
+    mamimi_tanaka:
       name: 田中 摩美々
       cv: 菅沼 千紗
       age: 18
       birthplace: 神奈川県
       birthday: 5/24
-    kiriko_yukoku: &kiriko
+      nickname:
+        - mamimi
+    kiriko_yukoku:
       name: 幽谷 霧子
       cv: 結名 美月
       age: 17
       birthplace: 青森県
       birthday: 9/23
-    kogane_tsukioka: &kogane
+      nickname:
+        - kiriko
+    kogane_tsukioka:
       name: 月岡 恋鐘
       cv: 礒部 花凜
       age: 19
       birthplace: 長崎県
       birthday: 2/25
-    yuika_mitsumine: &mitsumine
+      nickname:
+        - kogane
+        - kogatan
+    yuika_mitsumine:
       name: 三峰 結華
       cv: 成海 瑠奈
       age: 19
       birthplace: 福島県
       birthday: 1/16
-    sakuya_shirase: &sakuya
+      nickname:
+        - yuika
+        - mitsumine
+    sakuya_shirase:
       name: 白瀬 咲耶
       cv: 八巻 アンナ
       age: 18
       birthplace: 高知県
       birthday: 6/27
-    mamimi:
-      <<: *mamimi
-    kiriko:
-      <<: *kiriko
-    kogane:
-      <<: *kogane
-    mitsumine:
-      <<: *mitsumine
-    sakuya:
-      <<: *sakuya
+      nickname:
+        - sakuya
 
 hokagoclimaxgirls:
   name: 放課後クライマックスガールズ
   name_jp: 放課後クライマックスガールズ
   color: オレンジ
   idols:
-    rinze_morino: &rinze
+    rinze_morino:
       name: 杜野 凛世
       cv: 丸岡 和佳奈
       age: 16
       birthplace: 鳥取県
       birthday: 10/19
-    chiyoko_sonoda: &choko
+      nickname:
+        - rinze
+    chiyoko_sonoda:
       name: 園田 智代子
       cv: 白石 晴香
       age: 17
       birthplace: 千葉県
       birthday: 2/24
-    kaho_komiya: &kaho
+      nickname:
+        - choko
+    kaho_komiya:
       name: 小宮 果穂
       cv: 河野 ひより
       age: 12
       birthplace: 東京都
       birthday: 7/29
-    juri_saijo: &juri
+      nickname:
+        - kaho
+    juri_saijo:
       name: 西城 樹里
       cv: 永井 真里子
       age: 17
       birthplace: 神奈川県
       birthday: 11/26
-    natsuha_arisugawa: &natsuha
+      nickname:
+        - juri
+    natsuha_arisugawa:
       name: 有栖川 夏葉
       cv: 涼本 あきほ
       age: 20
       birthplace: 愛知県
       birthday: 8/16
-    rinze:
-      <<: *rinze
-    choko:
-      <<: *choko
-    kaho:
-      <<: *kaho
-    juri:
-      <<: *juri
-    natsuha:
-      <<: *natsuha
+      nickname:
+        - natsuha
 
 alstroemeria:
   name: ALSTROEMERIA
   name_jp: アルストロメリア
   color: パステルピンク
   idols:
-    amana_osaki: &amana
+    amana_osaki:
       name: 大崎 甘奈
       cv: 黒木 ほの香
       age: 17
       birthplace: 富山県
       birthday: 12/25
-    chiyuki_kuwayama: &chiyuki
+      nickname:
+        - amana
+        - naachan
+    chiyuki_kuwayama:
       name: 桑山 千雪
       cv: 芝崎 典子
       age: 23
       birthplace: 山口県
       birthday: 4/18
-    tenka_osaki: &tenka
+      nickname:
+        - chiyuki
+    tenka_osaki:
       name: 大崎 甜花
       cv: 前川 涼子
       age: 17
       birthplace: 富山県
       birthday: 12/25
-    amana:
-      <<: *amana
-    chiyuki:
-      <<: *chiyuki
-    tenka:
-      <<: *tenka
+      nickname:
+        - tenka
 
 straylight:
   name: Straylight
   name_jp: ストレイライト
   color: ワインレッド
   idols:
-    fuyuko_mayuzumi: &fuyuko
+    fuyuko_mayuzumi:
       name: 黛 冬優子
       cv: 幸村 恵理
       age: 19
       birthplace: 茨城県
       birthday: 12/4
-    asahi_serizawa: &asahi
+      nickname:
+        - fuyuko
+        - fuyu
+    asahi_serizawa:
       name: 芹沢 あさひ
       cv: 田中 有紀
       age: 14
       birthplace: 東京都
       birthday: 1/4
-    mei_izumi: &mei
+      nickname:
+        - asahi
+    mei_izumi:
       name: 和泉 愛依
       cv: 北原 沙弥香
       age: 18
       birthplace: 埼玉県
       birthday: 8/2
-    fuyuko:
-      <<: *fuyuko
-    asahi:
-      <<: *asahi
-    mei:
-      <<: *mei
+      nickname:
+        - mei
 
 noctchill:
   name: noctchill
   name_jp: ノクチル
   color: ウルトラマリン
   idols:
-    hinana_ichikawa: &hinana
+    hinana_ichikawa:
       name: 市川 雛菜
       cv: 岡咲 美保
       age: 15
       birthplace: 神奈川県
       birthday: 3/17
-    toru_asakura: &toru
+      nickname:
+        - hinana
+    toru_asakura:
       name: 浅倉 透
       cv: 和久井 優
       age: 17
       birthplace: 東京都
       birthday: 5/4
-    madoka_higuchi: &madoka
+      nickname:
+        - toru
+        - asakura
+    madoka_higuchi:
       name: 樋口 円香
       cv: 土屋 李央
       age: 17
       birthplace: 東京都
       birthday: 10/27
-    koito_fukumaru: &koito
+      nickname:
+        - madoka
+        - higuchi
+    koito_fukumaru:
       name: 福丸 小糸
       cv: 田嶌 紗蘭
       age: 16
       birthplace: 東京都
       birthday: 11/11
-    hinana:
-      <<: *hinana
-    toru:
-      <<: *toru
-    madoka:
-      <<: *madoka
-    koito:
-      <<: *koito
+      nickname:
+        - koito
