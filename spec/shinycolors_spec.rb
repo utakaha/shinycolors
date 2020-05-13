@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe ShinyColors do
   describe '樋口円香' do
     let(:madoka_attr) do
@@ -6,7 +8,7 @@ RSpec.describe ShinyColors do
         age: 17,
         birthplace: '東京都',
         birthday: '10/27',
-        nickname: ['madoka', 'higuchi'] }
+        nickname: %w[madoka higuchi] }
     end
 
     it 'フルネームで呼び出せる' do

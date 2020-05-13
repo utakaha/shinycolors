@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'yaml'
 
 module ShinyColors
@@ -27,6 +29,7 @@ module ShinyColors
       def find(name)
         h = all[name]
         raise(IdolNotFoundError) if h.nil?
+
         new(**h)
       end
     end

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'yaml'
 require 'active_support/core_ext/hash'
 
@@ -38,6 +40,7 @@ module ShinyColors
       def find(name)
         h = all[name]
         raise(NotFoundError) if h.nil?
+
         new(**h)
       end
 
