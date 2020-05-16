@@ -42,7 +42,7 @@ ShinyColors.choko # => #<ShinyColors::Idol:0x00007fadb933f540 @name="園田 智�
 ShinyColors.tenka # => #<ShinyColors::Idol:0x00007fadb99f3e90 @name="大崎 甜花", @cv="前川 涼子", @age=17, @birthplace="富山県", @birthday="12/25", @nickname=["tenka"]>
 ```
 
-あだ名は、[idol.yml](/data/idol.yml)にnicknameというkeyで定義しています。
+あだ名は、[idol.yml](/data/idol.yml)に`nickname_key`というkeyで定義しています。
 
 ### アイドルの情報の呼び出し
 ```ruby
