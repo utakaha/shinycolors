@@ -7,16 +7,17 @@ module ShinyColors
   class Idol
     class NotFoundError < StandardError; end
 
-    def initialize(name:, cv:, age:, birthplace:, birthday:, nickname_key:)
+    def initialize(name:, cv:, age:, birthplace:, birthday:, nickname_key:, nickname_kana:)
       @name = name
       @cv = cv
       @age = age
       @birthplace = birthplace
       @birthday = birthday
       @nickname_key = nickname_key
+      @nickname_kana = nickname_kana
     end
 
-    attr_reader :name, :cv, :age, :birthplace, :birthday, :nickname_key
+    attr_reader :name, :cv, :age, :birthplace, :birthday, :nickname_key, :nickname_kana
 
     class << self
       def all
@@ -54,6 +55,10 @@ module ShinyColors
           誕生日: #{idol.birthday}
         PRETTY
       end
+    end
+
+    def nickname
+      nickname_kana
     end
   end
 end

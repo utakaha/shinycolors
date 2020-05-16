@@ -11,6 +11,8 @@ illumination_stars:
       birthday: 3/4
       nickname_key:
         - hiori
+      nickname_kana:
+        - 灯織
     mano_sakuragi:
       name: 櫻木 真乃
       cv: 関根 瞳
@@ -19,6 +21,8 @@ illumination_stars:
       birthday: 4/25
       nickname_key:
         - mano
+      nickname_kana:
+        - 真乃
     meguru_hachimiya:
       name: 八宮 めぐる
       cv: 峯田 茉優
@@ -27,6 +31,8 @@ illumination_stars:
       birthday: 7/22
       nickname_key:
         - meguru
+      nickname_kana:
+        - めぐる
 
 lantica:
   name: L'Antica
@@ -41,6 +47,8 @@ lantica:
       birthday: 5/24
       nickname_key:
         - mamimi
+      nickname_kana:
+        - 摩美々
     kiriko_yukoku:
       name: 幽谷 霧子
       cv: 結名 美月
@@ -49,6 +57,8 @@ lantica:
       birthday: 9/23
       nickname_key:
         - kiriko
+      nickname_kana:
+        - 霧子
     kogane_tsukioka:
       name: 月岡 恋鐘
       cv: 礒部 花凜
@@ -58,6 +68,9 @@ lantica:
       nickname_key:
         - kogane
         - kogatan
+      nickname_kana:
+        - 恋鐘
+        - こがたん
     yuika_mitsumine:
       name: 三峰 結華
       cv: 成海 瑠奈
@@ -67,6 +80,9 @@ lantica:
       nickname_key:
         - yuika
         - mitsumine
+      nickname_kana:
+        - 結華
+        - 三峰
     sakuya_shirase:
       name: 白瀬 咲耶
       cv: 八巻 アンナ
@@ -75,6 +91,8 @@ lantica:
       birthday: 6/27
       nickname_key:
         - sakuya
+      nickname_kana:
+        - 咲耶
 
 hokagoclimaxgirls:
   name: 放課後クライマックスガールズ
@@ -89,6 +107,8 @@ hokagoclimaxgirls:
       birthday: 10/19
       nickname_key:
         - rinze
+      nickname_kana:
+        - 凛世
     chiyoko_sonoda:
       name: 園田 智代子
       cv: 白石 晴香
@@ -97,6 +117,9 @@ hokagoclimaxgirls:
       birthday: 2/24
       nickname_key:
         - choko
+      nickname_kana:
+        - 智代子
+        - ちょこ
     kaho_komiya:
       name: 小宮 果穂
       cv: 河野 ひより
@@ -105,6 +128,8 @@ hokagoclimaxgirls:
       birthday: 7/29
       nickname_key:
         - kaho
+      nickname_kana:
+        - 果穂
     juri_saijo:
       name: 西城 樹里
       cv: 永井 真里子
@@ -113,6 +138,8 @@ hokagoclimaxgirls:
       birthday: 11/26
       nickname_key:
         - juri
+      nickname_kana:
+        - 樹里
     natsuha_arisugawa:
       name: 有栖川 夏葉
       cv: 涼本 あきほ
@@ -121,6 +148,8 @@ hokagoclimaxgirls:
       birthday: 8/16
       nickname_key:
         - natsuha
+      nickname_kana:
+        - 夏葉
 
 alstroemeria:
   name: ALSTROEMERIA
@@ -136,6 +165,9 @@ alstroemeria:
       nickname_key:
         - amana
         - naachan
+      nickname_kana:
+        - 甘奈
+        - なーちゃん
     chiyuki_kuwayama:
       name: 桑山 千雪
       cv: 芝崎 典子
@@ -144,6 +176,8 @@ alstroemeria:
       birthday: 4/18
       nickname_key:
         - chiyuki
+      nickname_kana:
+        - 千雪
     tenka_osaki:
       name: 大崎 甜花
       cv: 前川 涼子
@@ -152,6 +186,8 @@ alstroemeria:
       birthday: 12/25
       nickname_key:
         - tenka
+      nickname_kana:
+        - 甜花
 
 straylight:
   name: Straylight
@@ -167,6 +203,9 @@ straylight:
       nickname_key:
         - fuyuko
         - fuyu
+      nickname_kana:
+        - 冬優子
+        - ふゆ
     asahi_serizawa:
       name: 芹沢 あさひ
       cv: 田中 有紀
@@ -175,6 +214,8 @@ straylight:
       birthday: 1/4
       nickname_key:
         - asahi
+      nickname_kana:
+        - あさひ
     mei_izumi:
       name: 和泉 愛依
       cv: 北原 沙弥香
@@ -183,6 +224,8 @@ straylight:
       birthday: 8/2
       nickname_key:
         - mei
+      nickname_kana:
+        - 愛依
 
 noctchill:
   name: noctchill
@@ -197,6 +240,8 @@ noctchill:
       birthday: 3/17
       nickname_key:
         - hinana
+      nickname_kana:
+        - 雛菜
     toru_asakura:
       name: 浅倉 透
       cv: 和久井 優
@@ -206,6 +251,10 @@ noctchill:
       nickname_key:
         - toru
         - asakura
+      nickname_kana:
+        - 浅倉
+        - 透
+        - 透先輩
     madoka_higuchi:
       name: 樋口 円香
       cv: 土屋 李央
@@ -215,6 +264,10 @@ noctchill:
       nickname_key:
         - madoka
         - higuchi
+      nickname_kana:
+        - 樋口
+        - 円香
+        - 円香先輩
     koito_fukumaru:
       name: 福丸 小糸
       cv: 田嶌 紗蘭
@@ -223,3 +276,5 @@ noctchill:
       birthday: 11/11
       nickname_key:
         - koito
+      nickname_kana:
+        - 小糸
