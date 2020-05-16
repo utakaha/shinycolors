@@ -3,12 +3,15 @@
 RSpec.describe ShinyColors do
   describe '樋口円香' do
     let(:madoka_attrs) do
-      { name: '樋口 円香',
+      {
+        name: '樋口 円香',
         cv: '土屋 李央',
         age: 17,
         birthplace: '東京都',
         birthday: '10/27',
-        nickname_key: %w[madoka higuchi] }
+        nickname_key: %w[madoka higuchi],
+        nickname_kana: %w[樋口 円香 円香先輩],
+      }
     end
 
     it 'フルネームで呼び出せる' do
