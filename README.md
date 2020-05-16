@@ -53,6 +53,7 @@ toru.cv # => "和久井 優"
 toru.age # => 17
 toru.birthplace # => "東京都"
 toru.birthday # => "5/4"
+toru.nickname # => ["浅倉", "透", "透先輩"]
 ```
 
 
