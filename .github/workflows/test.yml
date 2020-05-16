@@ -11,12 +11,16 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ruby: [ '2.5', '2.6', '2.7' ]
+    name: Ruby ${{ matrix.ruby }}
     steps:
       - uses: actions/checkout@v2
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: ${{ matrix.ruby }}
       - name: bundle dependencies
         run: bundle install --jobs 3
       - name: test
