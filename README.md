@@ -56,6 +56,19 @@ toru.birthday # => "5/4"
 toru.nickname # => ["浅倉", "透", "透先輩"]
 ```
 
+### ユニットアイドルの情報の呼び出し
+```ruby
+lantica = ShinyColors.lantica
+lantica.name # => "L'Antica"
+lantica.name_jp # => "アンティーカ"
+lantica.color # => "ヴァイオレット"
+lantica.idols
+# => {:mamimi_tanaka=>{:name=>"田中 摩美々", :cv=>"菅沼 千紗", :age=>18, :birthplace=>"神奈川県", :birthday=>"5/24", :nickname_key=>["mamimi"], :nickname_kana=>["摩美々"]},
+#     :kiriko_yukoku=>{:name=>"幽谷 霧子", :cv=>"結名 美月", :age=>17, :birthplace=>"青森県", :birthday=>"9/23", :nickname_key=>["kiriko"], :nickname_kana=>["霧子"]},
+#     :kogane_tsukioka=>{:name=>"月岡 恋鐘", :cv=>"礒部 花凜", :age=>19, :birthplace=>"長崎県", :birthday=>"2/25", :nickname_key=>["kogane", "kogatan"], :nickname_kana=>["恋鐘", "こがたん"]},
+#     :yuika_mitsumine=>{:name=>"三峰 結華", :cv=>"成海 瑠奈", :age=>19, :birthplace=>"福島県", :birthday=>"1/16", :nickname_key=>["yuika", "mitsumine"], :nickname_kana=>["結華", "三峰"]},
+#     :sakuya_shirase=>{:name=>"白瀬 咲耶", :cv=>"八巻 アンナ", :age=>18, :birthplace=>"高知県", :birthday=>"6/27", :nickname_key=>["sakuya"], :nickname_kana=>["咲耶"]}}
+```
 
 ## License
 
