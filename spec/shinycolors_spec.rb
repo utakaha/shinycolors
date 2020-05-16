@@ -14,11 +14,11 @@ RSpec.describe ShinyColors do
       }
     end
 
-    it 'フルネームで呼び出せる' do
+    it 'full name' do
       expect(described_class.madoka_higuchi).to have_attributes(madoka_attrs)
     end
 
-    it 'あだ名で呼び出せる' do
+    it 'nickname' do
       expect(described_class.madoka).to have_attributes(madoka_attrs)
       expect(described_class.higuchi).to have_attributes(madoka_attrs)
     end
