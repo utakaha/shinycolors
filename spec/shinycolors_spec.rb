@@ -8,7 +8,7 @@ RSpec.describe ShinyColors do
         age: 17,
         birthplace: '東京都',
         birthday: '10/27',
-        nickname: %w[madoka higuchi] }
+        nickname_key: %w[madoka higuchi] }
     end
 
     it 'フルネームで呼び出せる' do

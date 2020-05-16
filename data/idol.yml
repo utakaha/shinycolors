@@ -9,7 +9,7 @@ illumination_stars:
       age: 15
       birthplace: 東京都
       birthday: 3/4
-      nickname:
+      nickname_key:
         - hiori
     mano_sakuragi:
       name: 櫻木 真乃
@@ -17,7 +17,7 @@ illumination_stars:
       age: 16
       birthplace: 東京都
       birthday: 4/25
-      nickname:
+      nickname_key:
         - mano
     meguru_hachimiya:
       name: 八宮 めぐる
@@ -25,7 +25,7 @@ illumination_stars:
       age: 16
       birthplace: アメリカ
       birthday: 7/22
-      nickname:
+      nickname_key:
         - meguru
 
 lantica:
@@ -39,7 +39,7 @@ lantica:
       age: 18
       birthplace: 神奈川県
       birthday: 5/24
-      nickname:
+      nickname_key:
         - mamimi
     kiriko_yukoku:
       name: 幽谷 霧子
@@ -47,7 +47,7 @@ lantica:
       age: 17
       birthplace: 青森県
       birthday: 9/23
-      nickname:
+      nickname_key:
         - kiriko
     kogane_tsukioka:
       name: 月岡 恋鐘
@@ -55,7 +55,7 @@ lantica:
       age: 19
       birthplace: 長崎県
       birthday: 2/25
-      nickname:
+      nickname_key:
         - kogane
         - kogatan
     yuika_mitsumine:
@@ -64,7 +64,7 @@ lantica:
       age: 19
       birthplace: 福島県
       birthday: 1/16
-      nickname:
+      nickname_key:
         - yuika
         - mitsumine
     sakuya_shirase:
@@ -73,7 +73,7 @@ lantica:
       age: 18
       birthplace: 高知県
       birthday: 6/27
-      nickname:
+      nickname_key:
         - sakuya
 
 hokagoclimaxgirls:
@@ -87,7 +87,7 @@ hokagoclimaxgirls:
       age: 16
       birthplace: 鳥取県
       birthday: 10/19
-      nickname:
+      nickname_key:
         - rinze
     chiyoko_sonoda:
       name: 園田 智代子
@@ -95,7 +95,7 @@ hokagoclimaxgirls:
       age: 17
       birthplace: 千葉県
       birthday: 2/24
-      nickname:
+      nickname_key:
         - choko
     kaho_komiya:
       name: 小宮 果穂
@@ -103,7 +103,7 @@ hokagoclimaxgirls:
       age: 12
       birthplace: 東京都
       birthday: 7/29
-      nickname:
+      nickname_key:
         - kaho
     juri_saijo:
       name: 西城 樹里
@@ -111,7 +111,7 @@ hokagoclimaxgirls:
       age: 17
       birthplace: 神奈川県
       birthday: 11/26
-      nickname:
+      nickname_key:
         - juri
     natsuha_arisugawa:
       name: 有栖川 夏葉
@@ -119,7 +119,7 @@ hokagoclimaxgirls:
       age: 20
       birthplace: 愛知県
       birthday: 8/16
-      nickname:
+      nickname_key:
         - natsuha
 
 alstroemeria:
@@ -133,7 +133,7 @@ alstroemeria:
       age: 17
       birthplace: 富山県
       birthday: 12/25
-      nickname:
+      nickname_key:
         - amana
         - naachan
     chiyuki_kuwayama:
@@ -142,7 +142,7 @@ alstroemeria:
       age: 23
       birthplace: 山口県
       birthday: 4/18
-      nickname:
+      nickname_key:
         - chiyuki
     tenka_osaki:
       name: 大崎 甜花
@@ -150,7 +150,7 @@ alstroemeria:
       age: 17
       birthplace: 富山県
       birthday: 12/25
-      nickname:
+      nickname_key:
         - tenka
 
 straylight:
@@ -164,7 +164,7 @@ straylight:
       age: 19
       birthplace: 茨城県
       birthday: 12/4
-      nickname:
+      nickname_key:
         - fuyuko
         - fuyu
     asahi_serizawa:
@@ -173,7 +173,7 @@ straylight:
       age: 14
       birthplace: 東京都
       birthday: 1/4
-      nickname:
+      nickname_key:
         - asahi
     mei_izumi:
       name: 和泉 愛依
@@ -181,7 +181,7 @@ straylight:
       age: 18
       birthplace: 埼玉県
       birthday: 8/2
-      nickname:
+      nickname_key:
         - mei
 
 noctchill:
@@ -195,7 +195,7 @@ noctchill:
       age: 15
       birthplace: 神奈川県
       birthday: 3/17
-      nickname:
+      nickname_key:
         - hinana
     toru_asakura:
       name: 浅倉 透
@@ -203,7 +203,7 @@ noctchill:
       age: 17
       birthplace: 東京都
       birthday: 5/4
-      nickname:
+      nickname_key:
         - toru
         - asakura
     madoka_higuchi:
@@ -212,7 +212,7 @@ noctchill:
       age: 17
       birthplace: 東京都
       birthday: 10/27
-      nickname:
+      nickname_key:
         - madoka
         - higuchi
     koito_fukumaru:
@@ -221,5 +221,5 @@ noctchill:
       age: 16
       birthplace: 東京都
       birthday: 11/11
-      nickname:
+      nickname_key:
         - koito
