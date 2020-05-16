@@ -10,7 +10,7 @@ RSpec.describe ShinyColors do
         birthplace: '東京都',
         birthday: '10/27',
         nickname_key: %w[madoka higuchi],
-        nickname_kana: %w[樋口 円香 円香先輩],
+        nickname_kana: %w[樋口 円香 円香先輩]
       }
     end
 
