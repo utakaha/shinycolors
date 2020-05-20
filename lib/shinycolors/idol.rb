@@ -45,17 +45,6 @@ module ShinyColors
 
         new(**h)
       end
-
-      def display(name)
-        idol = find(name)
-        puts <<~PRETTY
-          名前:   #{idol.name}
-          cv:     #{idol.cv}
-          年齢:   #{idol.age}
-          出身地: #{idol.birthplace}
-          誕生日: #{idol.birthday}
-        PRETTY
-      end
     end
 
     def nickname
