@@ -2,6 +2,7 @@
 
 require 'yaml'
 require 'active_support/core_ext/hash'
+require './lib/shinycolors/unit'
 
 module ShinyColors
   class Idol
@@ -59,6 +60,22 @@ module ShinyColors
 
     def nickname
       nickname_kana
+    end
+
+    def unit_name
+      Unit.all.find do |_, values|
+        values[:idols].key?(key_name)
+      end.last[:name]
+    end
+
+    alias unit unit_name
+
+    private
+
+    def key_name
+      Idol.all.find do |_, values|
+        name == values[:name]
+      end.first
     end
   end
 end
