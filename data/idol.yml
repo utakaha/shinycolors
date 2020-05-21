@@ -99,40 +99,50 @@ hokagoclimaxgirls:
       name: 杜野 凛世
       cv: 丸岡 和佳奈
       age: 16
-      birthplace: 鳥取県
+      blood_type: B型
       birthday: 10/19
+      zodiac_sign: 天秤座
+      birthplace: 鳥取県
       nickname_key: ['rinze']
       nickname_kana: ['凛世']
     chiyoko_sonoda:
       name: 園田 智代子
       cv: 白石 晴香
       age: 17
-      birthplace: 千葉県
+      blood_type: A型
       birthday: 2/24
+      zodiac_sign: 魚座
+      birthplace: 千葉県
       nickname_key: ['choko']
       nickname_kana: ['智代子', 'ちょこ']
     kaho_komiya:
       name: 小宮 果穂
       cv: 河野 ひより
       age: 12
-      birthplace: 東京都
+      blood_type: A型
       birthday: 7/29
+      zodiac_sign: 獅子座
+      birthplace: 東京都
       nickname_key: ['kaho']
       nickname_kana: ['果穂']
     juri_saijo:
       name: 西城 樹里
       cv: 永井 真里子
       age: 17
-      birthplace: 神奈川県
+      blood_type: O型
       birthday: 11/26
+      zodiac_sign: 射手座
+      birthplace: 神奈川県
       nickname_key: ['juri']
       nickname_kana: ['樹里']
     natsuha_arisugawa:
       name: 有栖川 夏葉
       cv: 涼本 あきほ
       age: 20
-      birthplace: 愛知県
+      blood_type: B型
       birthday: 8/16
+      zodiac_sign: 獅子座
+      birthplace: 愛知県
       nickname_key: ['natsuha']
       nickname_kana: ['夏葉']
 
