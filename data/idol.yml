@@ -227,31 +227,39 @@ noctchill:
       name: 市川 雛菜
       cv: 岡咲 美保
       age: 15
-      birthplace: 神奈川県
+      blood_type: A型
       birthday: 3/17
+      zodiac_sign: うお座
+      birthplace: 神奈川県
       nickname_key: ['hinana']
       nickname_kana: ['雛菜']
     toru_asakura:
       name: 浅倉 透
       cv: 和久井 優
       age: 17
-      birthplace: 東京都
+      blood_type: B型
       birthday: 5/4
+      zodiac_sign: おうし座
+      birthplace: 東京都
       nickname_key: ['toru', 'asakura']
       nickname_kana: ['浅倉', '透', '透先輩']
     madoka_higuchi:
       name: 樋口 円香
       cv: 土屋 李央
       age: 17
-      birthplace: 東京都
+      blood_type: B型
       birthday: 10/27
+      zodiac_sign: さそり座
+      birthplace: 東京都
       nickname_key: ['madoka', 'higuchi']
       nickname_kana: ['樋口', '円香', '円香先輩']
     koito_fukumaru:
       name: 福丸 小糸
       cv: 田嶌 紗蘭
       age: 16
-      birthplace: 東京都
+      blood_type: O型
       birthday: 11/11
+      zodiac_sign: さそり座
+      birthplace: 東京都
       nickname_key: ['koito']
       nickname_kana: ['小糸']
