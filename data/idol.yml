@@ -191,24 +191,30 @@ straylight:
       name: 黛 冬優子
       cv: 幸村 恵理
       age: 19
-      birthplace: 茨城県
+      blood_type: A型
       birthday: 12/4
+      zodiac_sign: 射手座
+      birthplace: 茨城県
       nickname_key: ['fuyuko', 'fuyu']
       nickname_kana: ['冬優子', 'ふゆ']
     asahi_serizawa:
       name: 芹沢 あさひ
       cv: 田中 有紀
       age: 14
-      birthplace: 東京都
+      blood_type: AB型
       birthday: 1/4
+      zodiac_sign: 山羊座
+      birthplace: 東京都
       nickname_key: ['asahi']
       nickname_kana: ['あさひ']
     mei_izumi:
       name: 和泉 愛依
       cv: 北原 沙弥香
       age: 18
-      birthplace: 埼玉県
+      blood_type: O型
       birthday: 8/2
+      zodiac_sign: 獅子座
+      birthplace: 埼玉県
       nickname_key: ['mei']
       nickname_kana: ['愛依']
 
