@@ -155,24 +155,30 @@ alstroemeria:
       name: 大崎 甘奈
       cv: 黒木 ほの香
       age: 17
-      birthplace: 富山県
+      blood_type: A型
       birthday: 12/25
+      zodiac_sign: 山羊座
+      birthplace: 富山県
       nickname_key: ['amana', 'naachan']
       nickname_kana: ['甘奈', 'なーちゃん']
     chiyuki_kuwayama:
       name: 桑山 千雪
       cv: 芝崎 典子
       age: 23
-      birthplace: 山口県
+      blood_type: A型
       birthday: 4/18
+      zodiac_sign: 牡羊座
+      birthplace: 山口県
       nickname_key: ['chiyuki']
       nickname_kana: ['千雪']
     tenka_osaki:
       name: 大崎 甜花
       cv: 前川 涼子
       age: 17
-      birthplace: 富山県
+      blood_type: A型
       birthday: 12/25
+      zodiac_sign: 山羊座
+      birthplace: 富山県
       nickname_key: ['tenka']
       nickname_kana: ['甜花']
 
