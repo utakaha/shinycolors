@@ -7,24 +7,30 @@ illumination_stars:
       name: 風野 灯織
       cv: 近藤 玲奈
       age: 15
-      birthplace: 東京都
+      blood_type: A型
       birthday: 3/4
+      zodiac_sign: 魚座
+      birthplace: 東京都
       nickname_key: ['hiori']
       nickname_kana: ['灯織']
     mano_sakuragi:
       name: 櫻木 真乃
       cv: 関根 瞳
       age: 16
-      birthplace: 東京都
+      blood_type: A型
       birthday: 4/25
+      zodiac_sign: 牡牛座
+      birthplace: 東京都
       nickname_key: ['mano']
       nickname_kana: ['真乃']
     meguru_hachimiya:
       name: 八宮 めぐる
       cv: 峯田 茉優
       age: 16
-      birthplace: アメリカ
+      blood_type: O型
       birthday: 7/22
+      zodiac_sign: 蟹座
+      birthplace: アメリカ マサチューセッツ州
       nickname_key: ['meguru']
       nickname_kana: ['めぐる']
 
