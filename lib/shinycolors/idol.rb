@@ -9,7 +9,7 @@ module ShinyColors
     class NotFoundError < StandardError; end
 
     def initialize(name:, cv:, age:, blood_type:, birthday:, zodiac_sign:,
-                   dominant_hand:, birthplace:, nickname_key:, nickname_kana:)
+                   dominant_hand:, birthplace:, hobby:, nickname_key:, nickname_kana:)
       @name = name
       @cv = cv
       @age = age
@@ -18,12 +18,13 @@ module ShinyColors
       @zodiac_sign = zodiac_sign
       @dominant_hand = dominant_hand
       @birthplace = birthplace
+      @hobby = hobby
       @nickname_key = nickname_key
       @nickname_kana = nickname_kana
     end
 
     attr_reader :name, :cv, :age, :blood_type, :birthday, :zodiac_sign,
-                :dominant_hand, :birthplace, :nickname_key, :nickname_kana
+                :dominant_hand, :birthplace, :hobby, :nickname_key, :nickname_kana
 
     class << self
       def all
