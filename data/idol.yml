@@ -10,6 +10,7 @@ illumination_stars:
       blood_type: A型
       birthday: 3/4
       zodiac_sign: 魚座
+      dominant_hand: 右
       birthplace: 東京都
       nickname_key: ['hiori']
       nickname_kana: ['灯織']
@@ -20,6 +21,7 @@ illumination_stars:
       blood_type: A型
       birthday: 4/25
       zodiac_sign: 牡牛座
+      dominant_hand: 右
       birthplace: 東京都
       nickname_key: ['mano']
       nickname_kana: ['真乃']
@@ -30,6 +32,7 @@ illumination_stars:
       blood_type: O型
       birthday: 7/22
       zodiac_sign: 蟹座
+      dominant_hand: 右
       birthplace: アメリカ マサチューセッツ州
       nickname_key: ['meguru']
       nickname_kana: ['めぐる']
@@ -46,6 +49,7 @@ lantica:
       blood_type: B型
       birthday: 5/24
       zodiac_sign: 双子座
+      dominant_hand: 右
       birthplace: 神奈川県
       nickname_key: ['mamimi']
       nickname_kana: ['摩美々']
@@ -56,6 +60,7 @@ lantica:
       blood_type: AB型
       birthday: 9/23
       zodiac_sign: 天秤座
+      dominant_hand: 左
       birthplace: 青森県
       nickname_key: ['kiriko']
       nickname_kana: ['霧子']
@@ -66,6 +71,7 @@ lantica:
       blood_type: B型
       birthday: 2/25
       zodiac_sign: 魚座
+      dominant_hand: 左
       birthplace: 長崎県
       nickname_key: ['kogane', 'kogatan']
       nickname_kana: ['恋鐘', 'こがたん']
@@ -76,6 +82,7 @@ lantica:
       blood_type: O型
       birthday: 1/16
       zodiac_sign: 山羊座
+      dominant_hand: 右
       birthplace: 福島県
       nickname_key: ['yuika', 'mitsumine']
       nickname_kana: ['結華', '三峰']
@@ -86,6 +93,7 @@ lantica:
       blood_type: A型
       birthday: 6/27
       zodiac_sign: 蟹座
+      dominant_hand: 右
       birthplace: 高知県
       nickname_key: ['sakuya']
       nickname_kana: ['咲耶']
@@ -102,6 +110,7 @@ hokagoclimaxgirls:
       blood_type: B型
       birthday: 10/19
       zodiac_sign: 天秤座
+      dominant_hand: 左
       birthplace: 鳥取県
       nickname_key: ['rinze']
       nickname_kana: ['凛世']
@@ -112,6 +121,7 @@ hokagoclimaxgirls:
       blood_type: A型
       birthday: 2/24
       zodiac_sign: 魚座
+      dominant_hand: 右
       birthplace: 千葉県
       nickname_key: ['choko']
       nickname_kana: ['智代子', 'ちょこ']
@@ -122,6 +132,7 @@ hokagoclimaxgirls:
       blood_type: A型
       birthday: 7/29
       zodiac_sign: 獅子座
+      dominant_hand: 右
       birthplace: 東京都
       nickname_key: ['kaho']
       nickname_kana: ['果穂']
@@ -132,6 +143,7 @@ hokagoclimaxgirls:
       blood_type: O型
       birthday: 11/26
       zodiac_sign: 射手座
+      dominant_hand: 右
       birthplace: 神奈川県
       nickname_key: ['juri']
       nickname_kana: ['樹里']
@@ -142,6 +154,7 @@ hokagoclimaxgirls:
       blood_type: B型
       birthday: 8/16
       zodiac_sign: 獅子座
+      dominant_hand: 右
       birthplace: 愛知県
       nickname_key: ['natsuha']
       nickname_kana: ['夏葉']
@@ -158,6 +171,7 @@ alstroemeria:
       blood_type: A型
       birthday: 12/25
       zodiac_sign: 山羊座
+      dominant_hand: 右
       birthplace: 富山県
       nickname_key: ['amana', 'naachan']
       nickname_kana: ['甘奈', 'なーちゃん']
@@ -168,6 +182,7 @@ alstroemeria:
       blood_type: A型
       birthday: 4/18
       zodiac_sign: 牡羊座
+      dominant_hand: 右
       birthplace: 山口県
       nickname_key: ['chiyuki']
       nickname_kana: ['千雪']
@@ -178,6 +193,7 @@ alstroemeria:
       blood_type: A型
       birthday: 12/25
       zodiac_sign: 山羊座
+      dominant_hand: 右
       birthplace: 富山県
       nickname_key: ['tenka']
       nickname_kana: ['甜花']
@@ -194,6 +210,7 @@ straylight:
       blood_type: A型
       birthday: 12/4
       zodiac_sign: 射手座
+      dominant_hand: 右
       birthplace: 茨城県
       nickname_key: ['fuyuko', 'fuyu']
       nickname_kana: ['冬優子', 'ふゆ']
@@ -204,6 +221,7 @@ straylight:
       blood_type: AB型
       birthday: 1/4
       zodiac_sign: 山羊座
+      dominant_hand: 両利き
       birthplace: 東京都
       nickname_key: ['asahi']
       nickname_kana: ['あさひ']
@@ -214,6 +232,7 @@ straylight:
       blood_type: O型
       birthday: 8/2
       zodiac_sign: 獅子座
+      dominant_hand: 右
       birthplace: 埼玉県
       nickname_key: ['mei']
       nickname_kana: ['愛依']
@@ -230,6 +249,7 @@ noctchill:
       blood_type: A型
       birthday: 3/17
       zodiac_sign: うお座
+      dominant_hand: 左
       birthplace: 神奈川県
       nickname_key: ['hinana']
       nickname_kana: ['雛菜']
@@ -240,6 +260,7 @@ noctchill:
       blood_type: B型
       birthday: 5/4
       zodiac_sign: おうし座
+      dominant_hand: 右
       birthplace: 東京都
       nickname_key: ['toru', 'asakura']
       nickname_kana: ['浅倉', '透', '透先輩']
@@ -250,6 +271,7 @@ noctchill:
       blood_type: B型
       birthday: 10/27
       zodiac_sign: さそり座
+      dominant_hand: 右
       birthplace: 東京都
       nickname_key: ['madoka', 'higuchi']
       nickname_kana: ['樋口', '円香', '円香先輩']
@@ -260,6 +282,7 @@ noctchill:
       blood_type: O型
       birthday: 11/11
       zodiac_sign: さそり座
+      dominant_hand: 右
       birthplace: 東京都
       nickname_key: ['koito']
       nickname_kana: ['小糸']

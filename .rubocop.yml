@@ -18,7 +18,4 @@ Naming/MethodParameterName:
   Enabled: false
 
 Layout/LineLength:
-  Enabled: false
-
-LineLength:
-  Max: 120
+  Max: 100
