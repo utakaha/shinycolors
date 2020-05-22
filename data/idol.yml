@@ -3,17 +3,6 @@ illumination_stars:
   name_jp: イルミネーションスターズ
   color: パステルイエロー
   idols:
-    hiori_kazano:
-      name: 風野 灯織
-      cv: 近藤 玲奈
-      age: 15
-      blood_type: A型
-      birthday: 3/4
-      zodiac_sign: 魚座
-      dominant_hand: 右
-      birthplace: 東京都
-      nickname_key: ['hiori']
-      nickname_kana: ['灯織']
     mano_sakuragi:
       name: 櫻木 真乃
       cv: 関根 瞳
@@ -25,6 +14,17 @@ illumination_stars:
       birthplace: 東京都
       nickname_key: ['mano']
       nickname_kana: ['真乃']
+    hiori_kazano:
+      name: 風野 灯織
+      cv: 近藤 玲奈
+      age: 15
+      blood_type: A型
+      birthday: 3/4
+      zodiac_sign: 魚座
+      dominant_hand: 右
+      birthplace: 東京都
+      nickname_key: ['hiori']
+      nickname_kana: ['灯織']
     meguru_hachimiya:
       name: 八宮 めぐる
       cv: 峯田 茉優
@@ -42,28 +42,6 @@ lantica:
   name_jp: アンティーカ
   color: ヴァイオレット
   idols:
-    mamimi_tanaka:
-      name: 田中 摩美々
-      cv: 菅沼 千紗
-      age: 18
-      blood_type: B型
-      birthday: 5/24
-      zodiac_sign: 双子座
-      dominant_hand: 右
-      birthplace: 神奈川県
-      nickname_key: ['mamimi']
-      nickname_kana: ['摩美々']
-    kiriko_yukoku:
-      name: 幽谷 霧子
-      cv: 結名 美月
-      age: 17
-      blood_type: AB型
-      birthday: 9/23
-      zodiac_sign: 天秤座
-      dominant_hand: 左
-      birthplace: 青森県
-      nickname_key: ['kiriko']
-      nickname_kana: ['霧子']
     kogane_tsukioka:
       name: 月岡 恋鐘
       cv: 礒部 花凜
@@ -75,17 +53,17 @@ lantica:
       birthplace: 長崎県
       nickname_key: ['kogane', 'kogatan']
       nickname_kana: ['恋鐘', 'こがたん']
-    yuika_mitsumine:
-      name: 三峰 結華
-      cv: 成海 瑠奈
-      age: 19
-      blood_type: O型
-      birthday: 1/16
-      zodiac_sign: 山羊座
+    mamimi_tanaka:
+      name: 田中 摩美々
+      cv: 菅沼 千紗
+      age: 18
+      blood_type: B型
+      birthday: 5/24
+      zodiac_sign: 双子座
       dominant_hand: 右
-      birthplace: 福島県
-      nickname_key: ['yuika', 'mitsumine']
-      nickname_kana: ['結華', '三峰']
+      birthplace: 神奈川県
+      nickname_key: ['mamimi']
+      nickname_kana: ['摩美々']
     sakuya_shirase:
       name: 白瀬 咲耶
       cv: 八巻 アンナ
@@ -97,34 +75,34 @@ lantica:
       birthplace: 高知県
       nickname_key: ['sakuya']
       nickname_kana: ['咲耶']
+    yuika_mitsumine:
+      name: 三峰 結華
+      cv: 成海 瑠奈
+      age: 19
+      blood_type: O型
+      birthday: 1/16
+      zodiac_sign: 山羊座
+      dominant_hand: 右
+      birthplace: 福島県
+      nickname_key: ['yuika', 'mitsumine']
+      nickname_kana: ['結華', '三峰']
+    kiriko_yukoku:
+      name: 幽谷 霧子
+      cv: 結名 美月
+      age: 17
+      blood_type: AB型
+      birthday: 9/23
+      zodiac_sign: 天秤座
+      dominant_hand: 左
+      birthplace: 青森県
+      nickname_key: ['kiriko']
+      nickname_kana: ['霧子']
 
 hokagoclimaxgirls:
   name: 放課後クライマックスガールズ
   name_jp: 放課後クライマックスガールズ
   color: オレンジ
   idols:
-    rinze_morino:
-      name: 杜野 凛世
-      cv: 丸岡 和佳奈
-      age: 16
-      blood_type: B型
-      birthday: 10/19
-      zodiac_sign: 天秤座
-      dominant_hand: 左
-      birthplace: 鳥取県
-      nickname_key: ['rinze']
-      nickname_kana: ['凛世']
-    chiyoko_sonoda:
-      name: 園田 智代子
-      cv: 白石 晴香
-      age: 17
-      blood_type: A型
-      birthday: 2/24
-      zodiac_sign: 魚座
-      dominant_hand: 右
-      birthplace: 千葉県
-      nickname_key: ['choko']
-      nickname_kana: ['智代子', 'ちょこ']
     kaho_komiya:
       name: 小宮 果穂
       cv: 河野 ひより
@@ -136,6 +114,17 @@ hokagoclimaxgirls:
       birthplace: 東京都
       nickname_key: ['kaho']
       nickname_kana: ['果穂']
+    chiyoko_sonoda:
+      name: 園田 智代子
+      cv: 白石 晴香
+      age: 17
+      blood_type: A型
+      birthday: 2/24
+      zodiac_sign: 魚座
+      dominant_hand: 右
+      birthplace: 千葉県
+      nickname_key: ['choko']
+      nickname_kana: ['智代子', 'ちょこ']
     juri_saijo:
       name: 西城 樹里
       cv: 永井 真里子
@@ -147,6 +136,17 @@ hokagoclimaxgirls:
       birthplace: 神奈川県
       nickname_key: ['juri']
       nickname_kana: ['樹里']
+    rinze_morino:
+      name: 杜野 凛世
+      cv: 丸岡 和佳奈
+      age: 16
+      blood_type: B型
+      birthday: 10/19
+      zodiac_sign: 天秤座
+      dominant_hand: 左
+      birthplace: 鳥取県
+      nickname_key: ['rinze']
+      nickname_kana: ['凛世']
     natsuha_arisugawa:
       name: 有栖川 夏葉
       cv: 涼本 あきほ
@@ -175,17 +175,6 @@ alstroemeria:
       birthplace: 富山県
       nickname_key: ['amana', 'naachan']
       nickname_kana: ['甘奈', 'なーちゃん']
-    chiyuki_kuwayama:
-      name: 桑山 千雪
-      cv: 芝崎 典子
-      age: 23
-      blood_type: A型
-      birthday: 4/18
-      zodiac_sign: 牡羊座
-      dominant_hand: 右
-      birthplace: 山口県
-      nickname_key: ['chiyuki']
-      nickname_kana: ['千雪']
     tenka_osaki:
       name: 大崎 甜花
       cv: 前川 涼子
@@ -197,23 +186,23 @@ alstroemeria:
       birthplace: 富山県
       nickname_key: ['tenka']
       nickname_kana: ['甜花']
+    chiyuki_kuwayama:
+      name: 桑山 千雪
+      cv: 芝崎 典子
+      age: 23
+      blood_type: A型
+      birthday: 4/18
+      zodiac_sign: 牡羊座
+      dominant_hand: 右
+      birthplace: 山口県
+      nickname_key: ['chiyuki']
+      nickname_kana: ['千雪']
 
 straylight:
   name: Straylight
   name_jp: ストレイライト
   color: ワインレッド
   idols:
-    fuyuko_mayuzumi:
-      name: 黛 冬優子
-      cv: 幸村 恵理
-      age: 19
-      blood_type: A型
-      birthday: 12/4
-      zodiac_sign: 射手座
-      dominant_hand: 右
-      birthplace: 茨城県
-      nickname_key: ['fuyuko', 'fuyu']
-      nickname_kana: ['冬優子', 'ふゆ']
     asahi_serizawa:
       name: 芹沢 あさひ
       cv: 田中 有紀
@@ -225,6 +214,17 @@ straylight:
       birthplace: 東京都
       nickname_key: ['asahi']
       nickname_kana: ['あさひ']
+    fuyuko_mayuzumi:
+      name: 黛 冬優子
+      cv: 幸村 恵理
+      age: 19
+      blood_type: A型
+      birthday: 12/4
+      zodiac_sign: 射手座
+      dominant_hand: 右
+      birthplace: 茨城県
+      nickname_key: ['fuyuko', 'fuyu']
+      nickname_kana: ['冬優子', 'ふゆ']
     mei_izumi:
       name: 和泉 愛依
       cv: 北原 沙弥香
@@ -242,17 +242,6 @@ noctchill:
   name_jp: ノクチル
   color: ウルトラマリン
   idols:
-    hinana_ichikawa:
-      name: 市川 雛菜
-      cv: 岡咲 美保
-      age: 15
-      blood_type: A型
-      birthday: 3/17
-      zodiac_sign: うお座
-      dominant_hand: 左
-      birthplace: 神奈川県
-      nickname_key: ['hinana']
-      nickname_kana: ['雛菜']
     toru_asakura:
       name: 浅倉 透
       cv: 和久井 優
@@ -275,6 +264,17 @@ noctchill:
       birthplace: 東京都
       nickname_key: ['madoka', 'higuchi']
       nickname_kana: ['樋口', '円香', '円香先輩']
+    hinana_ichikawa:
+      name: 市川 雛菜
+      cv: 岡咲 美保
+      age: 15
+      blood_type: A型
+      birthday: 3/17
+      zodiac_sign: うお座
+      dominant_hand: 左
+      birthplace: 神奈川県
+      nickname_key: ['hinana']
+      nickname_kana: ['雛菜']
     koito_fukumaru:
       name: 福丸 小糸
       cv: 田嶌 紗蘭
