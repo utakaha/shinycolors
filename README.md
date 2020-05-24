@@ -51,14 +51,20 @@ toru = ShinyColors.toru
 toru.name # => "浅倉 透"
 toru.cv # => "和久井 優"
 toru.age # => 17
-toru.birthplace # => "東京都"
+toru.blood_type # => "B型"
 toru.birthday # => "5/4"
+toru.zodiac_sign # => "おうし座"
+toru.dominant_hand # => "右"
+toru.birthplace # => "東京都"
+toru.hobby # => "映画やドラマを見ること"
+toru.special_skills # => "人の顔を覚えること"
 toru.nickname # => ["浅倉", "透", "透先輩"]
 ```
 
-### ユニットアイドルの情報の呼び出し
+### ユニットの情報の呼び出し
 ```ruby
 lantica = ShinyColors.lantica
+
 lantica.name # => "L'Antica"
 lantica.name_jp # => "アンティーカ"
 lantica.color # => "ヴァイオレット"
