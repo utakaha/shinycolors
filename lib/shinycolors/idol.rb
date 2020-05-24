@@ -8,8 +8,8 @@ module ShinyColors
   class Idol
     class NotFoundError < StandardError; end
 
-    def initialize(name:, cv:, age:, blood_type:, birthday:, zodiac_sign:,
-                   dominant_hand:, birthplace:, hobby:, nickname_key:, nickname_kana:)
+    def initialize(name:, cv:, age:, blood_type:, birthday:, zodiac_sign:, dominant_hand:,
+                   birthplace:, hobby:, special_skills:, nickname_key:, nickname_kana:)
       @name = name
       @cv = cv
       @age = age
@@ -19,12 +19,13 @@ module ShinyColors
       @dominant_hand = dominant_hand
       @birthplace = birthplace
       @hobby = hobby
+      @special_skills = special_skills
       @nickname_key = nickname_key
       @nickname_kana = nickname_kana
     end
 
-    attr_reader :name, :cv, :age, :blood_type, :birthday, :zodiac_sign,
-                :dominant_hand, :birthplace, :hobby, :nickname_key, :nickname_kana
+    attr_reader :name, :cv, :age, :blood_type, :birthday, :zodiac_sign, :dominant_hand,
+                :birthplace, :hobby, :special_skills, :nickname_key, :nickname_kana
 
     class << self
       def all

@@ -13,6 +13,7 @@ illumination_stars:
       dominant_hand: 右
       birthplace: 東京都
       hobby: お出かけ、公園で日向ぼっこ
+      special_skills: 鳥に好かれる
       nickname_key: ['mano']
       nickname_kana: ['真乃']
     hiori_kazano:
@@ -25,6 +26,7 @@ illumination_stars:
       dominant_hand: 右
       birthplace: 東京都
       hobby: 音楽鑑賞、綺麗な景色を探すこと、占い
+      special_skills: 料理、スケジュール管理
       nickname_key: ['hiori']
       nickname_kana: ['灯織']
     meguru_hachimiya:
@@ -37,6 +39,7 @@ illumination_stars:
       dominant_hand: 右
       birthplace: アメリカ マサチューセッツ州
       hobby: 人と話すこと、体を動かすこと
+      special_skills: スポーツ全般
       nickname_key: ['meguru']
       nickname_kana: ['めぐる']
 
@@ -55,6 +58,7 @@ lantica:
       dominant_hand: 左
       birthplace: 長崎県
       hobby: うちの手料理、何でも絶品たい！
+      special_skills: そっくりな似顔絵ば描けるたい！
       nickname_key: ['kogane', 'kogatan']
       nickname_kana: ['恋鐘', 'こがたん']
     mamimi_tanaka:
@@ -67,6 +71,7 @@ lantica:
       dominant_hand: 右
       birthplace: 神奈川県
       hobby: 放浪、人をからかう
+      special_skills: 自分で髪を切る
       nickname_key: ['mamimi']
       nickname_kana: ['摩美々']
     sakuya_shirase:
@@ -79,6 +84,7 @@ lantica:
       dominant_hand: 右
       birthplace: 高知県
       hobby: 色々な所に出かける
+      special_skills: 自分を最大限カッコ良く見せる立振舞い
       nickname_key: ['sakuya']
       nickname_kana: ['咲耶']
     yuika_mitsumine:
@@ -91,6 +97,7 @@ lantica:
       dominant_hand: 右
       birthplace: 福島県
       hobby: アイドルライブ鑑賞、カメラ、ゲーム、アニメ、読書
+      special_skills: 勉強、推しに一早く認知されること
       nickname_key: ['yuika', 'mitsumine']
       nickname_kana: ['結華', '三峰']
     kiriko_yukoku:
@@ -103,6 +110,7 @@ lantica:
       dominant_hand: 左
       birthplace: 青森県
       hobby: かわいいもの全般の収集、手芸、献血
+      special_skills: 包帯を綺麗に巻く、足音を立てない、りんごの皮むき
       nickname_key: ['kiriko']
       nickname_kana: ['霧子']
 
@@ -121,6 +129,7 @@ hokagoclimaxgirls:
       dominant_hand: 右
       birthplace: 東京都
       hobby: 日曜日朝の子供向け番組を見る事、グッズ集め
+      special_skills: 好きな番組の決め台詞を数多く覚えている
       nickname_key: ['kaho']
       nickname_kana: ['果穂']
     chiyoko_sonoda:
@@ -133,6 +142,7 @@ hokagoclimaxgirls:
       dominant_hand: 右
       birthplace: 千葉県
       hobby: スイーツ店巡り
+      special_skills: たくさん食べられること
       nickname_key: ['choko']
       nickname_kana: ['智代子', 'ちょこ']
     juri_saijo:
@@ -145,6 +155,7 @@ hokagoclimaxgirls:
       dominant_hand: 右
       birthplace: 神奈川県
       hobby: 洋楽、ゲーム
+      special_skills: スポーツ全般、（中2までは）バスケ
       nickname_key: ['juri']
       nickname_kana: ['樹里']
     rinze_morino:
@@ -157,6 +168,7 @@ hokagoclimaxgirls:
       dominant_hand: 左
       birthplace: 鳥取県
       hobby: 少女漫画、芸道全般
+      special_skills: 折り紙、百人一首
       nickname_key: ['rinze']
       nickname_kana: ['凛世']
     natsuha_arisugawa:
@@ -169,6 +181,7 @@ hokagoclimaxgirls:
       dominant_hand: 右
       birthplace: 愛知県
       hobby: トレーニング、ストレッチ
+      special_skills: トータルコーディネート
       nickname_key: ['natsuha']
       nickname_kana: ['夏葉']
 
@@ -187,6 +200,7 @@ alstroemeria:
       dominant_hand: 右
       birthplace: 富山県
       hobby: ショッピング、ネイル、自撮り
+      special_skills: 早起き、倹約
       nickname_key: ['amana', 'naachan']
       nickname_kana: ['甘奈', 'なーちゃん']
     tenka_osaki:
@@ -199,6 +213,7 @@ alstroemeria:
       dominant_hand: 右
       birthplace: 富山県
       hobby: お昼寝、ネットサーフィン、アニメ、ゲーム
+      special_skills: 特に無い
       nickname_key: ['tenka']
       nickname_kana: ['甜花']
     chiyuki_kuwayama:
@@ -211,6 +226,7 @@ alstroemeria:
       dominant_hand: 右
       birthplace: 山口県
       hobby: 雑貨作り
+      special_skills: 裁縫、道案内
       nickname_key: ['chiyuki']
       nickname_kana: ['千雪']
 
@@ -229,6 +245,7 @@ straylight:
       dominant_hand: 両利き
       birthplace: 東京都
       hobby: 人間観察・人に話しかけること
+      special_skills: 記憶力がいい
       nickname_key: ['asahi']
       nickname_kana: ['あさひ']
     fuyuko_mayuzumi:
@@ -241,6 +258,7 @@ straylight:
       dominant_hand: 右
       birthplace: 茨城県
       hobby: お友達とおしゃべり♪
+      special_skills: みんなと仲良くなること♪
       nickname_key: ['fuyuko', 'fuyu']
       nickname_kana: ['冬優子', 'ふゆ']
     mei_izumi:
@@ -253,6 +271,7 @@ straylight:
       dominant_hand: 右
       birthplace: 埼玉県
       hobby: 友達と遊ぶ・最近の曲を聞く
+      special_skills: 何時間でも電話できる
       nickname_key: ['mei']
       nickname_kana: ['愛依']
 
@@ -271,6 +290,7 @@ noctchill:
       dominant_hand: 右
       birthplace: 東京都
       hobby: 映画やドラマを見ること
+      special_skills: 人の顔を覚えること
       nickname_key: ['toru', 'asakura']
       nickname_kana: ['浅倉', '透', '透先輩']
     madoka_higuchi:
@@ -283,6 +303,7 @@ noctchill:
       dominant_hand: 右
       birthplace: 東京都
       hobby: 別にないです
+      special_skills: 別にないです
       nickname_key: ['madoka', 'higuchi']
       nickname_kana: ['樋口', '円香', '円香先輩']
     hinana_ichikawa:
@@ -295,6 +316,7 @@ noctchill:
       dominant_hand: 左
       birthplace: 神奈川県
       hobby: 読書
+      special_skills: 勉強
       nickname_key: ['hinana']
       nickname_kana: ['雛菜']
     koito_fukumaru:
@@ -307,5 +329,6 @@ noctchill:
       dominant_hand: 右
       birthplace: 東京都
       hobby: なんでもそれなりに好き～
+      special_skills: なんでもそれなりにできる～
       nickname_key: ['koito']
       nickname_kana: ['小糸']
