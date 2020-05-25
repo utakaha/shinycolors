@@ -29,28 +29,36 @@ module ShinyColors
 
     class << self
       def all
-        return @all unless @all.nil?
-
-        @all = YAML.load_file('./data/idol.yml').each_with_object({}) do |(_, values), result|
-          result.merge!(values['idols'])
-        end.deep_symbolize_keys!
+        data.map do |_key, values|
+          new(**values)
+        end
       end
 
       def names
-        all.keys
+        data.keys
       end
 
       def nicknames
-        all.each_with_object({}) do |(fullname, values), result|
+        data.each_with_object({}) do |(fullname, values), result|
           values[:nickname_key]&.each { |nickname| result.merge!({ nickname => fullname }) }
         end
       end
 
       def find(name)
-        h = all[name]
+        h = data[name]
         raise(NotFoundError) if h.nil?
 
         new(**h)
+      end
+
+      private
+
+      def data
+        return @data unless @data.nil?
+
+        @data = YAML.load_file('./data/idol.yml').each_with_object({}) do |(_, values), result|
+          result.merge!(values['idols'])
+        end.deep_symbolize_keys!
       end
     end
 
@@ -69,7 +77,7 @@ module ShinyColors
     private
 
     def key_name
-      Idol.all.find do |_, values|
+      Idol.data.find do |_, values|
         name == values[:name]
       end.first
     end

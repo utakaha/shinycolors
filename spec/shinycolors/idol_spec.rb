@@ -1,9 +1,17 @@
 # frozen_string_literal: true
 
 RSpec.describe ShinyColors::Idol do
-  let(:asahi) { ShinyColors.asahi }
+  describe 'class method' do
+    it '#all' do
+      expect(described_class.all.count).to eq 23
+    end
+  end
 
-  it '#nickname' do
-    expect(asahi.nickname).to eq ['あさひ']
+  describe 'instance method' do
+    let(:asahi) { ShinyColors.asahi }
+
+    it '#nickname' do
+      expect(asahi.nickname).to eq ['あさひ']
+    end
   end
 end
