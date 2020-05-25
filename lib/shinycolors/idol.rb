@@ -9,7 +9,7 @@ module ShinyColors
     class NotFoundError < StandardError; end
 
     def initialize(name:, cv:, age:, blood_type:, birthday:, zodiac_sign:, dominant_hand:,
-                   birthplace:, hobby:, special_skills:, nickname_key:, nickname_kana:)
+                   birthplace:, hobby:, special_skills:, nickname_key:, nickname_kana:, key_name:)
       @name = name
       @cv = cv
       @age = age
@@ -22,14 +22,16 @@ module ShinyColors
       @special_skills = special_skills
       @nickname_key = nickname_key
       @nickname_kana = nickname_kana
+      @key_name = key_name
     end
 
     attr_reader :name, :cv, :age, :blood_type, :birthday, :zodiac_sign, :dominant_hand,
-                :birthplace, :hobby, :special_skills, :nickname_key, :nickname_kana
+                :birthplace, :hobby, :special_skills, :nickname_key, :nickname_kana, :key_name
 
     class << self
       def all
-        data.map do |_key, values|
+        data.map do |key, values|
+          values[:key_name] = key
           new(**values)
         end
       end
@@ -46,6 +48,7 @@ module ShinyColors
 
       def find(name)
         h = data[name]
+        h[:key_name] = name
         raise(NotFoundError) if h.nil?
 
         new(**h)
@@ -67,19 +70,9 @@ module ShinyColors
     end
 
     def unit_name
-      Unit.all.find do |_, values|
-        values[:idols].key?(key_name)
-      end.last[:name]
-    end
-
-    alias unit unit_name
-
-    private
-
-    def key_name
-      Idol.data.find do |_, values|
-        name == values[:name]
-      end.first
+      Unit.all.find do |unit|
+        unit.idols.keys.include?(key_name)
+      end.name
     end
   end
 end

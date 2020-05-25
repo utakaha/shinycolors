@@ -17,20 +17,28 @@ module ShinyColors
 
     class << self
       def all
-        return @all unless @all.nil?
-
-        @all = YAML.load_file('./data/idol.yml').deep_symbolize_keys!
+        data.map do |_key, values|
+          new(**values)
+        end
       end
 
       def names
-        all.keys
+        data.keys
       end
 
       def find(name)
-        h = all[name]
+        h = data[name]
         raise(IdolNotFoundError) if h.nil?
 
         new(**h)
+      end
+
+      private
+
+      def data
+        return @data unless @data.nil?
+
+        @data = YAML.load_file('./data/idol.yml').deep_symbolize_keys!
       end
     end
   end
