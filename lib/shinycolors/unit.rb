@@ -28,7 +28,7 @@ module ShinyColors
 
       def find(name)
         h = data[name]
-        raise(IdolNotFoundError) if h.nil?
+        raise(NotFoundError) if h.nil?
 
         new(**h)
       end
