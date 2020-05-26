@@ -48,9 +48,9 @@ module ShinyColors
 
       def find(name)
         h = data[name]
-        h[:key_name] = name
         raise(NotFoundError) if h.nil?
 
+        h[:key_name] = name
         new(**h)
       end
 
@@ -65,14 +65,18 @@ module ShinyColors
       end
     end
 
+    def ==(other)
+      key_name == other.key_name
+    end
+
     def nickname
       nickname_kana
     end
 
     def unit_name
-      Unit.all.find do |unit|
-        unit.idols.keys.include?(key_name)
-      end.name
+      Unit.all.select do |unit|
+        unit.idols.include?(self)
+      end.first.name
     end
   end
 end
