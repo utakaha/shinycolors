@@ -54,6 +54,10 @@ module ShinyColors
         new(**h)
       end
 
+      def sample
+        all.sample
+      end
+
       private
 
       def data

@@ -37,6 +37,10 @@ module ShinyColors
         new(**h)
       end
 
+      def sample
+        all.sample
+      end
+
       def data
         YAML.load_file('./data/idol.yml').deep_symbolize_keys!
       end
