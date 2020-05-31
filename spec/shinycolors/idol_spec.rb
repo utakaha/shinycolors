@@ -13,5 +13,13 @@ RSpec.describe ShinyColors::Idol do
     it '#nickname' do
       expect(asahi.nickname).to eq ['あさひ']
     end
+
+    it '#unit_name' do
+      expect(asahi.unit_name).to eq 'Straylight'
+    end
+
+    it '#==' do
+      expect(asahi == ShinyColors.asahi).to eq true
+    end
   end
 end
