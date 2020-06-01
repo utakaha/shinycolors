@@ -44,6 +44,18 @@ ShinyColors.tenka # => #<ShinyColors::Idol:0x00007fa2cc81bb88 @name="大崎 甜�
 
 あだ名は、[idol.yml](/data/idol.yml)に`nickname_key`というkeyで定義しています。
 
+ランダムにアイドルを呼び出したいときは、`ShinyColors::Idol.sample` を使ってください。
+```ruby
+ShinyColors::Idol.sample # => #<ShinyColors::Idol:0x00007fa2ca437910 @name="杜野 凛世", @cv="丸岡 和佳奈", @age=16, @blood_type="B型", @birthday="10/19", @zodiac_sign="天秤座", @dominant_hand="左", @birthplace="鳥取県", @hobby="少女漫画、芸道全般", @special_skills="折り紙、百人一首", @nickname_key=["rinze"], @nickname_kana=["凛世"], @key_name=:rinze_morino>
+```
+
+また、こちらのメソッドはUnitクラスにも定義されています。
+```ruby
+ShinyColors::Unit.sample # => #<ShinyColors::Unit:0x00007fa2ca439738 @name="ALSTROEMERIA", @name_jp="アルストロメリア", @color="パステルピンク", @key_name=:alstroemeria>
+```
+
+
+
 ### アイドルの情報の呼び出し
 ```ruby
 toru = ShinyColors.toru
