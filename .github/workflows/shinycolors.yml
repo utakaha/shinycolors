@@ -23,4 +23,4 @@ jobs:
       - name: style
         run: bundle exec rubocop
       - name: test
-        run: bundle exec rspec
+        run: bundle exec rspec --format documentation
