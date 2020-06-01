@@ -1,7 +1,6 @@
 # ShinyColors
 
-このgemは、「アイドルマスター シャイニーカラーズ」の情報をRubyで扱えるようにするためのgemです。
-[Faker](https://github.com/faker-ruby/faker)、[Rubicure](https://github.com/sue445/rubicure)、[jp_prefecture](https://github.com/chocoby/jp_prefecture)を参考にしています。
+「アイドルマスター シャイニーカラーズ」の情報をRubyで扱えるようにするためのgemです。
 
 ## Installation
 
