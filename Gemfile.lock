@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     shinycolors (0.2.5)
+      thor
 
 GEM
   remote: https://rubygems.org/
@@ -45,6 +46,7 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 2.0)
     ruby-progressbar (1.10.1)
+    thor (1.0.1)
     thread_safe (0.3.6)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
