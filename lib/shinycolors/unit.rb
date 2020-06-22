@@ -49,5 +49,13 @@ module ShinyColors
     def idols
       Unit.data[key_name][:idols].keys.map { |key_name| Idol.find(key_name) }
     end
+
+    def display
+      puts <<~TEXT
+                  名前: #{name}
+        名前(カタカナ): #{name_jp}
+        ユニットカラー: #{color}
+      TEXT
+    end
   end
 end
