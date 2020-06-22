@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'shinycolors/version'
+require 'shinycolors/cli'
 require 'shinycolors/idol'
 require 'shinycolors/unit'
 

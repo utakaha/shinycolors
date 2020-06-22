@@ -82,5 +82,21 @@ module ShinyColors
         unit.idols.include?(self)
       end.first.name
     end
+
+    # TODO: to module.
+    def display
+      puts <<~TEXT
+          名前: #{name}
+            CV: #{cv}
+          年齢: #{age}
+        血液型: #{blood_type}
+        誕生日: #{birthday}
+          星座: #{zodiac_sign}
+        利き手: #{dominant_hand}
+        出身地: #{birthplace}
+          趣味: #{hobby}
+          特技: #{special_skills}
+      TEXT
+    end
   end
 end
