@@ -27,5 +27,6 @@ module ShinyColors
     def version
       puts "shinycolors version #{ShinyColors::VERSION}"
     end
+    map %w[-v --version] => :version
   end
 end
